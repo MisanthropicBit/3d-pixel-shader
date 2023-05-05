@@ -1,7 +1,7 @@
 import { DepthTexture, NearestFilter, ShaderMaterial, RGBAFormat, Vector2, WebGLRenderTarget, WebGLRenderTargetOptions, Scene, Camera, WebGL2PixelFormat, WebGLRenderer } from 'three'
 import { FullScreenQuad, Pass } from 'three/examples/jsm/postprocessing/Pass'
 
-import { createRenderTarget } from './render_target'
+import { createRenderTarget } from './RenderTarget'
 
 export class PixelationPass extends Pass {
   private fsQuad: FullScreenQuad

@@ -4,8 +4,8 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { Pass } from 'three/examples/jsm/postprocessing/Pass'
 import { RenderPass } from 'three/examples/jsm/postprocessing/RenderPass'
 
-import { PixelationPass } from './pixelation_pass'
-import { DepthPass } from './depth_pass'
+import { PixelationPass } from './PixelationPass'
+import { DepthPass } from './DepthPass'
 
 enum ControlKey {
   COLOR = 'color',

@@ -2,7 +2,7 @@ import * as three from 'three'
 import { ShaderMaterial, RGBAFormat, Vector2, WebGLRenderTarget, Scene, Camera, WebGLRenderer } from 'three'
 import { FullScreenQuad, Pass } from 'three/examples/jsm/postprocessing/Pass'
 
-import { createRenderTarget } from './render_target'
+import { createRenderTarget } from './RenderTarget'
 
 /**
  * A simple depth pass
