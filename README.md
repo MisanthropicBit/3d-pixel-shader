@@ -6,7 +6,7 @@ Inspired by [t3ssel8r on YouTube](https://www.youtube.com/@t3ssel8r/videos).
 
 ```bash
 $ npm install
-$ npm run build
 $ npm run typecheck
+$ npm run build
 $ npm run serve
 ```
